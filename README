@@ -1,0 +1,8 @@
+This repository contains R implementation of the algorithm proposed in "GSPS: Gene set-based patient subtyping", which is under review for BMC Bioinformatics.
+
+run_tcga_experiments.R shows how to replicate the reported experiments on TCGA cohorts.
+
+GSPS methods
+------------
+* lmkkmeans_efficient_train_cplex.R => efficient training procedure for localized multiple kernel k-means algorithm using CPLEX optimization software
+* lmkkmeans_efficient_train_mosek.R => efficient training procedure for localized multiple kernel k-means algorithm using Mosek optimization software
